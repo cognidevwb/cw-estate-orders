@@ -1,0 +1,13 @@
+  <Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+      <TargetFramework>net9.0</TargetFramework>
+      <Nullable>enable</Nullable>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <RootNamespace>CwEstate.Orders</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.9" />
+      <PackageReference Include="MassTransit" Version="8.3.4" />
+  <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.4" />
+</ItemGroup>
+  </Project>
